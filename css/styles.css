@@ -218,7 +218,50 @@ body.dark .search-field input {
   font-size: 1.2rem;
   cursor: pointer;
 }
-/* ===================  BREAKPOINTS ================= */
+
+body.dark main{
+  color: var(--text-color);
+}
+
+h2{
+padding-top: 100px;
+}
+/* =================== SECCION HOME================= */
+.home{
+  background-color: aqua;
+  height: 100vh;
+}
+
+/* =================== SECCION ABOUT================= */
+
+.about{
+  background-color: rgb(12, 143, 143);
+  height: 100vh;
+}
+
+
+/* =================== SECCION PORTFOLIO================= */
+.portfolio{
+  background-color: rgb(43, 68, 193);
+  height: 100vh;
+}
+
+/* =================== SECCION SERVICES  ================= */
+
+.services{
+ 
+  height: 100vh;
+}
+
+/* =================== SECCION CONTACT ================= */
+.contact{
+ 
+  height: 100vh;
+}
+
+
+
+/* ===================  BREAKPOINTS RESPONSIVE================= */
 
 @media (max-width: 790px) {
   nav .nav-bar .sidebarOpen {
